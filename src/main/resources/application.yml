@@ -15,3 +15,7 @@ spring:
 
   logging.level:
     org.hibernate.SQL: debug
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
